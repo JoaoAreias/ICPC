@@ -1,0 +1,4 @@
+# Executables
+*.exe
+# I/O Test files
+*.txt
