@@ -1,1 +1,1 @@
-g++ -std=c++11 -O3 -o %1.exe %1.cpp
+g++ -std=c++11 -O2 -o %1.exe %1.cpp
