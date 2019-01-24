@@ -6,14 +6,12 @@ using namespace std;
 string reverseShuffleMerge(string s) {
 	string out;
 	map<char, int> freq_count;
-	for(const char &c: s)
-		freq_count[c]++;
 
 	/* Output string must have half the frequency 
 	 for each character as the original one */
-	for(auto &p: freq_count)
-		p.second /= 2;
-
+	for(const char &c: s)
+		freq_count[c]++;
+	
 	// Transversing string in reverse
 	for(auto it=s.crbegin(); it != s.crend(); it++){
 		
