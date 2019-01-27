@@ -10,6 +10,7 @@ This is a compilation of a list of problems and implementation of the solutions 
 
 - [Breadth First Search (BFS)](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
     - [Find the nearest clone](https://www.hackerrank.com/challenges/find-the-nearest-clone/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=graphs) [(Code)](https://github.com/JoaoAreias/ICPC/blob/master/HackerRank/FindTheNearestClone.cpp)
+    - [Shortest Reach in a Graph](https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=graphs) [(Code)](https://github.com/JoaoAreias/ICPC/blob/master/HackerRank/ShortestReachinaGraph.cpp)
 - [Depth First Search (DFS)](https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
     - [Roads and Libraries](https://www.hackerrank.com/challenges/torque-and-development/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=graphs) [(Code)](https://github.com/JoaoAreias/ICPC/blob/master/HackerRank/RoadsandLibraries.cpp)
 - [Shortest Path from source to all vertices **Dijkstra**](https://www.geeksforgeeks.org/greedy-algorithms-set-6-dijkstras-shortest-path-algorithm/)
