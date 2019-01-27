@@ -1,7 +1,3 @@
-/*
- NOT WORKING
-*/
-
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -18,37 +14,64 @@ vector<string> split_string(string);
  * 3. An edge exists between <name>_from[i] to <name>_to[i].
  *
  */
-long findShortest(int graph_nodes, vector<int> graph_from, vector<int> graph_to, vector<long> ids, int val) {
-    unordered_map<int, vector<int>> graph;
-    unordered_map<long, vector<int>> node_colors;
-    // Find nodes with each color
-    for(int i=0; i<ids.size(); i++)
-        node_colors[ids[i]].push_back(i+1);
-    // Can't find path with less than 2 nodes
-    if(node_colors[val].size() < 2)
-        return -1;
-    // Build Graph
+int findShortest(int graph_nodes, vector<int> graph_from, vector<int> graph_to, vector<long> ids, int val) {
+    map<int, vector<int>> graph;
+    vector<int> matching_ids;
+    int return_value = numeric_limits<int>::max();
+
+    // Building graph
     for(int i=0; i<graph_nodes; i++){
         graph[graph_from[i]].push_back(graph_to[i]);
         graph[graph_to[i]].push_back(graph_from[i]);
+        // If node has a matching id, add it to the vector
+        if(ids[i-1] == val)
+            matching_ids.push_back(i);
     }
-    // Find minimum distance
+
+    // Runs BFS for every node matching color
     queue<pair<int, int>> bfs_queue;
-    long min_dist = (long)1e8;
-    int curr_node, dist;
-    for(int node:node_colors[val]){
-        vector<bool> visited(graph_nodes, false);
-        visited[node] = true;
-        for(int n:graph[node]){
-            visited[n] = true;
-            bfs_queue.push(make_pair(n, 1));
+    vector<bool> visited(graph_nodes);
+    int node, dist;
+    pair<int, int> aux;
+
+    for(const int &i: matching_ids){
+        fill(visited.begin(), visited.end(), false);
+        visited[i] = true;
+        /* To find the shortest distance we must exclude the
+        node itself so we add the nodes connected to it to the
+        queue instead */
+        for(const int &j: graph[i]){
+            bfs_queue.push(make_pair(j, 1));
+            visited[j] = true;
         }
-        while(true){
-            curr_node = bfs_queue.front().first;
-            dist = bfs_queue.front().second;
-            visited[curr_node] = true;
+
+        while(!bfs_queue.empty()){
+            aux = bfs_queue.front();
+            node = aux.first;
+            dist = aux.second;
+            bfs_queue.pop();
+            /* Check if node color is the matching color
+            and exit if condition is met*/
+            if(ids[node-1] == val){
+                if(dist < return_value)
+                    return_value = dist;
+                break;
+            }
+            // Continue search
+            for(const int &j: graph[node]){
+                if(!visited[j]){
+                    visited[j] = true;
+                    bfs_queue.push(make_pair(j, dist+1));
+                }
+            }
         }
+
+        while(!bfs_queue.empty())
+            bfs_queue.pop();
     }
+
+
+    return (return_value == numeric_limits<int>::max() ? -1 : return_value);
 }
 
 int main()

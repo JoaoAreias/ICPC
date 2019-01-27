@@ -16,5 +16,6 @@ This is a compilation of a list of problems and implementation of the solutions 
 - [Minimum Spanning tree **Prim**](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/)
 - [Minimum Spanning tree **Kruskal**](https://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/)
 - [Topological Sort](https://www.geeksforgeeks.org/topological-sorting/)
+- [Johnson’s algorithm](https://www.geeksforgeeks.org/johnsons-algorithm/)
 - [Articulation Points (or Cut Vertices) in a Graph](https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/)
 - [Bridges in a graph](https://www.geeksforgeeks.org/bridge-in-a-graph/)
