@@ -9,7 +9,7 @@ This is a compilation of a list of problems and implementation of the solutions 
 ## Graph Algorithms
 
 - [Breadth First Search (BFS)](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
-    - [Find the nearest clone](https://www.hackerrank.com/challenges/find-the-nearest-clone/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=graphs)[(Code)](https://github.com/JoaoAreias/ICPC/blob/master/HackerRank/FindTheNearestClone.cpp)
+    - [Find the nearest clone](https://www.hackerrank.com/challenges/find-the-nearest-clone/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=graphs) [(Code)](https://github.com/JoaoAreias/ICPC/blob/master/HackerRank/FindTheNearestClone.cpp)
 - [Depth First Search (DFS)](https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
     - [Roads and Libraries](https://www.hackerrank.com/challenges/torque-and-development/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=graphs) [(Code)](https://github.com/JoaoAreias/ICPC/blob/master/HackerRank/RoadsandLibraries.cpp)
 - [Shortest Path from source to all vertices **Dijkstra**](https://www.geeksforgeeks.org/greedy-algorithms-set-6-dijkstras-shortest-path-algorithm/)
@@ -20,3 +20,16 @@ This is a compilation of a list of problems and implementation of the solutions 
 - [Johnson’s algorithm](https://www.geeksforgeeks.org/johnsons-algorithm/)
 - [Articulation Points (or Cut Vertices) in a Graph](https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/)
 - [Bridges in a graph](https://www.geeksforgeeks.org/bridge-in-a-graph/)
+
+## Dynamic programming
+
+- [Longest Common Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/)
+- [Longest Increasing Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-3-longest-increasing-subsequence/)
+- [Edit Distance](https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/)
+- [Minimum Partition](https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/)
+- [Ways to Cover a Distance](https://www.geeksforgeeks.org/count-number-of-ways-to-cover-a-distance/)
+- [Longest Path In Matrix](https://www.geeksforgeeks.org/find-the-longest-path-in-a-matrix-with-given-constraints/)
+- [Subset Sum Problem](https://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/)
+- [Optimal Strategy for a Game](https://www.geeksforgeeks.org/dynamic-programming-set-31-optimal-strategy-for-a-game/)
+- [0-1 Knapsack Problem](https://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/)
+- [Assembly Line Scheduling](https://www.geeksforgeeks.org/dynamic-programming-set-34-assembly-line-scheduling/)
