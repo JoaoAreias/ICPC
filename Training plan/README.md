@@ -13,6 +13,7 @@ This is a compilation of a list of problems and implementation of the solutions 
     - [Shortest Reach in a Graph](https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=graphs) [(Code)](https://github.com/JoaoAreias/ICPC/blob/master/HackerRank/ShortestReachinaGraph.cpp)
 - [Depth First Search (DFS)](https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
     - [Roads and Libraries](https://www.hackerrank.com/challenges/torque-and-development/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=graphs) [(Code)](https://github.com/JoaoAreias/ICPC/blob/master/HackerRank/RoadsandLibraries.cpp)
+    - [Connected Cell in a Grid](https://www.hackerrank.com/challenges/ctci-connected-cell-in-a-grid/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=graphs&h_r=next-challenge&h_v=zen) [(Code)](https://github.com/JoaoAreias/ICPC/blob/master/HackerRank/ConnectedCellinaGrid.cpp)
 - [Shortest Path from source to all vertices **Dijkstra**](https://www.geeksforgeeks.org/greedy-algorithms-set-6-dijkstras-shortest-path-algorithm/)
 - [Shortest Path from every vertex to every other vertex **Floyd Warshall**](https://www.geeksforgeeks.org/dynamic-programming-set-16-floyd-warshall-algorithm/)
 - [Minimum Spanning tree **Prim**](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/)
