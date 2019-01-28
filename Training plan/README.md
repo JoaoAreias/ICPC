@@ -18,6 +18,7 @@ This is a compilation of a list of problems and implementation of the solutions 
 - [Shortest Path from every vertex to every other vertex **Floyd Warshall**](https://www.geeksforgeeks.org/dynamic-programming-set-16-floyd-warshall-algorithm/)
 - [Minimum Spanning tree **Prim**](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/)
 - [Minimum Spanning tree **Kruskal**](https://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/)
+    - [Matrix](https://www.hackerrank.com/challenges/matrix/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=graphs) [(Code)](https://github.com/JoaoAreias/ICPC/blob/master/HackerRank/Matrix.cpp)
 - [Topological Sort](https://www.geeksforgeeks.org/topological-sorting/)
 - [Johnson’s algorithm](https://www.geeksforgeeks.org/johnsons-algorithm/)
 - [Articulation Points (or Cut Vertices) in a Graph](https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/)
