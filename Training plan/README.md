@@ -36,3 +36,5 @@ This is a compilation of a list of problems and implementation of the solutions 
 - [Optimal Strategy for a Game](https://www.geeksforgeeks.org/dynamic-programming-set-31-optimal-strategy-for-a-game/)
 - [0-1 Knapsack Problem](https://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/)
 - [Assembly Line Scheduling](https://www.geeksforgeeks.org/dynamic-programming-set-34-assembly-line-scheduling/)
+- Ad - hoc
+    - [Max Array Sum](https://www.hackerrank.com/challenges/max-array-sum/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dynamic-programming) [(Code)](https://github.com/JoaoAreias/ICPC/blob/master/HackerRank/MaxArraySum.cpp)
