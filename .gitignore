@@ -2,3 +2,8 @@
 *.exe
 # I/O Test files
 *.txt
+*.out
+*.in
+
+# VS Code
+.vscode
