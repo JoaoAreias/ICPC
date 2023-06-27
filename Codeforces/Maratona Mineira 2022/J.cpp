@@ -49,6 +49,5 @@ int main() {
     }
     std::cout << (!darkCorner ? "S" : "N") << std::endl;
 
-
     return 0;
 }
