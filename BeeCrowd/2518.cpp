@@ -14,7 +14,7 @@ int main(){
     std::cin.tie(NULL);
 
     std::cout << std::fixed << std::setprecision(4);
-
+    
     while (std::cin >> N >> H >> C >> L){
         double area = N * L * hypotenuse(H, C) / 1e4;
         std::cout << area << std::endl;
