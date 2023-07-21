@@ -14,9 +14,9 @@ int main() {
     
     // Para cada peça do tabuleiro
     int idx = 0;
-    for(int i=1; i <= n; i++){
+    for(int peca=1; peca <= n; peca++){
         // Pula a peça que já foi colocada
-        if (i == k)
+        if (peca == k)
             continue;
 
         idx++;
@@ -24,11 +24,11 @@ int main() {
             for(int l=0; l <= direita; l++){
                 memo[idx][j][l] = memo[idx-1][j][l];
                 
-                if(j >= i)
-                    memo[idx][j][l] = std::min(memo[idx][j][l], memo[idx-1][j-i][l] - i);
+                if(j >= peca)
+                    memo[idx][j][l] = std::min(memo[idx][j][l], memo[idx-1][j-peca][l] - peca);
 
-                if(l >= i)
-                    memo[idx][j][l] = std::min(memo[idx][j][l], memo[idx-1][j][l-i] - i);
+                if(l >= peca)
+                    memo[idx][j][l] = std::min(memo[idx][j][l], memo[idx-1][j][l-peca] - peca);
                 
             }
         }
